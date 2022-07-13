@@ -1,7 +1,8 @@
 import streamlit as st
 import numpy as np
 
-n=np.random.rand(8)
+n=np.random.permutation(8)
 
+st.subheader('Chose 1')
 st.text(n)
-st.subheader('Dice')
+
