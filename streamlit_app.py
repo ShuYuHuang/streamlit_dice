@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Interactive Streamlit elements, like these sliders, return their value.
@@ -26,7 +26,7 @@ st.text(str(l))
 #     st.text(str(i) + ": " + str(d) + "個")
 
 # グラフ設定
-fig = plt.figure(figsize=(20,10))
+# fig = plt.figure(figsize=(20,10))
 st.subheader('サイコロの和の平均値の分布')
 sns.distplot(l)
 st.pyplot(fig)
